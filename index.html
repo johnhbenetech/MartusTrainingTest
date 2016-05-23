@@ -1,13 +1,30 @@
 <html>
+	<head>
+        <title>Martus Tour</title>
+        <link rel="stylesheet" href="css/hopscotch.css"></link>
+    </head>
+<style>
+img{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+</style>
+
 <body>
 
 <div style="position: absolute; height: 100%; width: 100%; top:0; left:0;"> 
-	<p style="text-align:center; diplay:block;"><img src="./img/1.png" usemap="#mapname"></p>
+	<img src="./img/1.png" usemap="#mapname">
 	<map name="mapname">
-		<area shape="rect" coords="20,190,333,213" href="./page2.html">
+		<area id="link1" shape="rect" coords="20,190,333,213" href="./page2.html">
 	</map>
 </div>
 
+<script src="js/hopscotch.js"></script>
+<script src="js/my_first_tour.js"></script>
 
 </body>
 </html>
