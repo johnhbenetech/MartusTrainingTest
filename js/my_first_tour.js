@@ -5,7 +5,7 @@
         {
           title: "My Header",
           content: "This is the header of my page.",
-          target: document.getElementsByName("link1")[0].value,
+          target: document.getElementsByName("link1")[0],
           placement: "right"
         }
       ]
