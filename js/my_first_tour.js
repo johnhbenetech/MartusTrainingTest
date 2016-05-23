@@ -5,7 +5,7 @@
         {
           title: "My Header",
           content: "This is the header of my page.",
-          target: "link1",
+          target: document.querySelector("#link1"),
           placement: "right"
         }
       ]
