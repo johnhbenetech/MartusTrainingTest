@@ -16,7 +16,7 @@
 		{
 			title: "Woooo",
 			content: "Yeah",
-			target: "link2",
+			target: "link1",
 			placement: "right"
 		}
       ]
