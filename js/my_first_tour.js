@@ -5,7 +5,6 @@
         {
           title: "My Header",
           content: "This is the header of my page.",
-          target: document.getElementsByName("link1")[0],
           placement: "right",
 		  onNext: function() {
 			xhr.open("POST", "https://paste.ee/api", true);
