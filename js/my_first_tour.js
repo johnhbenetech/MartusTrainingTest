@@ -8,6 +8,7 @@
           target: "link1",
           placement: "bottom",
 		  onNext: function() {
+			xhr = new XMLHttpRequest();  
 			xhr.open("POST", "https://paste.ee/api", true);
 			xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
 			xhr.send({"key":"0dedeb9f5699ef19ae6ff4f12ff8e694","paste":"Moved to next step"});
